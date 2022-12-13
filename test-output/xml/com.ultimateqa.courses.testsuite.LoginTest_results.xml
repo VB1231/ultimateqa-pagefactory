@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Login Test"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="3.763">
+  <properties />
+  
+  
+            <testcase name="verifyTheErrorMessage" time="2.403" classname="com.ultimateqa.courses.testsuite.LoginTest" />
+                <testcase name="verifyUserShouldOnLogin" time="1.360" classname="com.ultimateqa.courses.testsuite.LoginTest" />
+      
+</testsuite>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - Login Test</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="reportng.js"></script>
+</head>
+<body>
+<h1>Login Test</h1>
+<p>
+  Test duration: 13.439s
+</p>
+
+
+
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">com.ultimateqa.courses.testsuite.LoginTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  verifyTheErrorMessage
+      </td>
+  <td class="duration">
+    2.403s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        click on login page[[ChromeDriver: chrome on WINDOWS (875c95ea34e2496cdc62cb519ea13505)] -&gt; link text: Sign In]<br />
+                                enter email[[ChromeDriver: chrome on WINDOWS (875c95ea34e2496cdc62cb519ea13505)] -&gt; id: user[email]]<br />
+                                enter password[[ChromeDriver: chrome on WINDOWS (875c95ea34e2496cdc62cb519ea13505)] -&gt; id: user[password]]<br />
+                                click on sign in[[ChromeDriver: chrome on WINDOWS (875c95ea34e2496cdc62cb519ea13505)] -&gt; xpath: //button[@type=&apos;submit&apos;]]<br />
+                                login unsuccessful error message[[ChromeDriver: chrome on WINDOWS (875c95ea34e2496cdc62cb519ea13505)] -&gt; xpath: //li[contains(text(),&apos;Invalid email or password.&apos;)]]<br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyUserShouldOnLogin
+      </td>
+  <td class="duration">
+    1.360s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        click on login page[[ChromeDriver: chrome on WINDOWS (b5b6c256d63f5a610361b634dee86949)] -&gt; link text: Sign In]<br />
+                                Get text from login [[ChromeDriver: chrome on WINDOWS (b5b6c256d63f5a610361b634dee86949)] -&gt; xpath: //h2[contains(text(),&apos;Welcome Back!&apos;)]]<br />
+                  </div>
+    
+
+      </td>
+</tr>
+      </table>
+  
+</body>
+</html>
